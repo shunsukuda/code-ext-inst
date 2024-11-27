@@ -1,9 +1,10 @@
 # code-ext-inst
 VS Code extensions install helper.
 
-# Uses
+# Usage
 
-```sh:Uses
+```sh:Usage
 code --list-extensions > list.txt
-./code-ext-inst list.txt
+go run .  list.txt
+rm list.txt
 ```
